@@ -1,0 +1,373 @@
+/* -----------------------------    Navbar   --------------------------------- */
+#section-navbar{
+  background-color: #148bb3;
+  color:#fff !important;
+}
+nav.navbar{
+  margin-left: 100px !important;
+}
+a.nav-link {
+  color: white !important;
+}
+.dropdown-item:hover{
+  color:#fff !important;
+  background-color:#148bb3 !important;
+}
+a.navbar-brand {
+  background-color: black !important;
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50px !important;
+}
+.navleft{
+  margin-left: 450px !important;
+}
+.nav-link:hover{
+  background-color: black !important;
+  border-radius: 5px !important;
+}
+#navcurrentlink:hover{
+  color:mediumblue !important;
+  background-color:#148bb3 !important;
+}
+
+/* media queries for navbar */
+@media (min-width: 200px) and (max-width: 767.98px) { 
+  nav.navbar {
+    margin:0px !important;
+  }
+  .navcurrent{
+    margin:0px !important;
+  }
+  .navleft{
+    margin:0px !important;
+  }
+  .footer-contacts p {
+    margin: 0 1px 0 -54px !important;
+  }
+  .footer-about.pt-2 {
+    margin: 0 30px 0 38px !important;
+  }
+  .footer-icons {
+    margin: 0 0px 0 23px !important;
+  }
+  .footer-contacts ul {
+    padding: 16px !important;
+  }
+
+ }
+
+/* -----------------------------    End Navbar   --------------------------------- */
+
+
+
+
+
+/* -----------------------------    About section   --------------------------------- */
+.company-services-img img{
+  width:100%;
+  height: 30vh;
+}
+/* -----------------------------    End About Section   --------------------------------- */
+
+
+/* -----------------------------    Footer   --------------------------------- */
+#footer-section{
+  color:white;
+  background-color: #2a2a2a;
+}
+.footer-pages ul{
+  list-style-type: none;
+}
+.footer-pages ul li{
+  padding-top: 10px;
+}
+.footer-pages ul li a{
+  color:#fff;
+}
+.footer-pages ul li a:hover{
+  color:#148bb3;
+  text-decoration: none;
+}
+.footer-contacts ul{
+  list-style-type: none;
+}
+.footer-contacts ul li span{
+  padding-right: 20px;
+}
+.footer-contacts a{
+  text-decoration: none;
+  color:#148bb3;
+}
+.footer-contacts p{
+  margin:0px !important;
+  padding:0px !important;
+}
+.footer-contacts a:hover{
+  color:#fff;
+}
+.footer-contacts i{
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+.footer-about p{
+  font-size: 12px;
+  color:#92999f;
+} 
+.footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #2A2A2A;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.footer-icons a:hover{
+  color:#148bb3;
+}
+
+/* -----------------------------    End footer   --------------------------------- */
+
+
+/* -----------------------------    Project Done   --------------------------------- */
+#project-done{
+  color:#fff;
+  background-image: url("../images/project-done.png");
+}
+
+/* -----------------------------    End Project Done   --------------------------------- */
+
+
+
+
+/* -----------------------------    Slider section   --------------------------------- */
+#slider-section{
+  background-color: #909799;
+}
+
+/* -----------------------------    Slider section   --------------------------------- */
+
+
+/* -----------------------------    Web   --------------------------------- */
+.web-description h2{
+  color:#148bb3;
+}
+.web-exert img{
+  width: 100%;
+}
+.web-expert-desc ul{
+  list-style-type: none;
+  padding:0px;
+}
+.wb-service p{
+  font-size: 12px;
+}
+
+/* -----------------------------    end web description   --------------------------------- */
+
+
+
+/* -----------------------------    Mobile   --------------------------------- */
+.mobile-description h2{
+  color:#148bb3;
+}
+/* -----------------------------    End Mobile   --------------------------------- */
+
+
+
+/* -----------------------------    Navbar   --------------------------------- */
+.graphic-description h2{
+  color:#148bb3;
+}
+/* -----------------------------    Navbar   --------------------------------- */
+
+.lbl{
+  color:#148bb3;
+}
+.submitq {
+  background-color: #148bb3;
+  border: none;
+}
+.submitq:hover {
+  background-color: #000000;
+  border:2px solid #148bb3;
+  color:#fff;
+}
+/* -----------------------------    Navbar   --------------------------------- */
+#services img{
+  width: 50%;
+}
+#services p{
+  font-size: 12px;
+}
+/* -----------------------------    Navbar   --------------------------------- */
+
+
+
+/* -----------------------------    Contact   --------------------------------- */
+.lblc{
+  color:#148bb3;
+}
+.contactbtn{
+  background-color:#148bb3;
+  border:none;
+}
+
+.contactbtn:hover{
+  background-color: #000000;
+  border:2px solid #148bb3;
+  color:#fff;
+}
+/* -----------------------------    End Contact   --------------------------------- */
+
+
+
+/* -----------------------------    Team   --------------------------------- */
+        /* FontAwesome for working BootSnippet :> */
+
+        @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+        #team {
+            background: #eee !important;
+        }
+        
+        .btn-primary:hover,
+        .btn-primary:focus {
+            background-color: #148bb3;
+            border-color: #148bb3;
+            box-shadow: none;
+            outline: none;
+        }
+        
+        .btn-primary {
+            color: #fff;
+            background-color: #148bb3;
+            border-color: #148bb3;
+        }
+        
+        
+        section .section-title {
+            text-align: center;
+            color: #148bb3;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+        
+        #team .card {
+            border: none;
+            background: #ffffff;
+        }
+        
+        .image-flip:hover .backside,
+        .image-flip.hover .backside {
+            -webkit-transform: rotateY(0deg);
+            -moz-transform: rotateY(0deg);
+            -o-transform: rotateY(0deg);
+            -ms-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+            border-radius: .25rem;
+        }
+        
+        .image-flip:hover .frontside,
+        .image-flip.hover .frontside {
+            -webkit-transform: rotateY(180deg);
+            -moz-transform: rotateY(180deg);
+            -o-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+        }
+        
+        .mainflip {
+            -webkit-transition: 1s;
+            -webkit-transform-style: preserve-3d;
+            -ms-transition: 1s;
+            -moz-transition: 1s;
+            -moz-transform: perspective(1000px);
+            -moz-transform-style: preserve-3d;
+            -ms-transform-style: preserve-3d;
+            transition: 1s;
+            transform-style: preserve-3d;
+            position: relative;
+        }
+        
+        .frontside {
+            position: relative;
+            -webkit-transform: rotateY(0deg);
+            -ms-transform: rotateY(0deg);
+            z-index: 2;
+            margin-bottom: 30px;
+        }
+        
+        .backside {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: white;
+            -webkit-transform: rotateY(-180deg);
+            -moz-transform: rotateY(-180deg);
+            -o-transform: rotateY(-180deg);
+            -ms-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+            -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+            -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+            box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+        }
+        
+        .frontside,
+        .backside {
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            -ms-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -webkit-transition: 1s;
+            -webkit-transform-style: preserve-3d;
+            -moz-transition: 1s;
+            -moz-transform-style: preserve-3d;
+            -o-transition: 1s;
+            -o-transform-style: preserve-3d;
+            -ms-transition: 1s;
+            -ms-transform-style: preserve-3d;
+            transition: 1s;
+            transform-style: preserve-3d;
+        }
+        
+        .frontside .card,
+        .backside .card {
+            min-height: 312px;
+        }
+        
+        .backside .card a {
+            font-size: 18px;
+            color: #148bb3 !important;
+        }
+        
+        .frontside .card .card-title,
+        .backside .card .card-title {
+            color: #148bb3 !important;
+        }
+        
+        .frontside .card .card-body img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+/* -----------------------------    end team   --------------------------------- */
+
+
+/* -----------------------------    Navbar   --------------------------------- */
+/* -----------------------------    Navbar   --------------------------------- */
+/* -----------------------------    Navbar   --------------------------------- */
+/* -----------------------------    Navbar   --------------------------------- */
+/* -----------------------------    Navbar   --------------------------------- */
